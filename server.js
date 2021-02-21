@@ -25,7 +25,7 @@ function post(postObject){
         console.log("data posted")
     })
     .catch(err =>{
-        console.log(err)
+        console.log("error")
     })
     return
 }
